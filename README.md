@@ -40,6 +40,8 @@ El objetivo de esta fase en *Sistemas de Control II* es identificar experimental
 | Red 110V AC | `Neutro` | Resistencia | Cierre del circuito AC directo al tomacorriente. |
 
 *Nota sobre "Aislamiento":* El uso del transistor 2N2222 sirve como etapa de acoplamiento de corriente (driver) para evitar caídas de tensión en los pines del ESP32. Dado que el Emisor del transistor comparte el GND del ESP32 y de la fuente ATX, **no existe aislamiento galvánico en el lado de DC**, pero la electrónica de baja tensión queda protegida por el aislamiento óptico interno que posee el propio módulo SSR-50 DA respecto al lado de 110V AC.
+
+*(El diagrama eléctrico detallado en formato .fzz de Fritzing se encuentra dentro de la carpeta `Diagrama electrico Caracterizacion temperatura` de este repositorio).*
 ---
 
 
